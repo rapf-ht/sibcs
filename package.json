@@ -1,0 +1,32 @@
+{
+  "name": "sibcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run start:dev --workspace=backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapf-ht/sibcs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rapf-ht/sibcs/issues"
+  },
+  "homepage": "https://github.com/rapf-ht/sibcs#readme"
+}
